@@ -1,5 +1,11 @@
 @import url(style.css);
+
+body{
+    background-color: green;
+}
 #buttonHome{
+    margin: auto;
+    margin-top: 1rem;
     width: 5rem;
     height: 5rem;
     display: flex;
@@ -13,4 +19,10 @@
 
 #compra-efetuada-header{
     color: white;
+}
+
+.compraRealizada{
+    margin: auto;
+    display: flex;
+    border-radius: 3.5rem;
 }
