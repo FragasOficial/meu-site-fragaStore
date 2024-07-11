@@ -1,0 +1,55 @@
+@media(max-width: 450px){
+    body{
+        width: 100%;
+    }
+    .header-config{
+        width: 100%;
+    }
+
+    .header-config-block{
+        display: block;
+        padding: auto;
+    }
+
+    .muscle-max{
+        display: block;
+    }
+    .logo-fragastore{
+        display: block; 
+    }
+
+    bottom{
+        width: 50%;
+        font-size: 0.5rem;
+    }
+
+    .produdos-fragastore{
+        display: block;
+    }
+
+    .box-product{
+        display: block;
+        width: 90%;
+        border: 0.02rem solid burlywood;
+        border-radius: none;
+        
+    }
+
+    .title-product{
+        font-weight: bold;
+        padding: 0.02rem;
+    }
+
+    .config-faleconosco{
+        width: 80%;
+    }
+
+    .image-product{
+        width: 85%;
+    }
+    
+    #image-whey-max{
+        width: 55%;
+    }
+
+}
