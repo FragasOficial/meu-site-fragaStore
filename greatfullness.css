@@ -1,0 +1,12 @@
+@import url(style.css);
+#buttonHome{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    border-radius: 120rem;
+    justify-content: end;
+}
+
+#compraEfetuada{
+    max-width: 100%;
+}
