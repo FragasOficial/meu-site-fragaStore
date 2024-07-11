@@ -117,13 +117,13 @@ ul{
 }
 
 footer{
-    background-color: green;
+    background-color: black;
     color: white;
     font-size: 1.2rem;
     height: 8rem;
     text-align: center;
     padding-top: 5rem;
     margin-top: 3rem;
-    border: 0.02rem solid #f02475;
+    border: none;
     border-radius: 0.5rem;
 }
