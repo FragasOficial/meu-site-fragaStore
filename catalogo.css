@@ -12,6 +12,7 @@ body{
     color: #f02475;
     display: flex;
     text-align: center;
+    max-width: 100%;
 }
 
 .header-config-block{
@@ -58,21 +59,18 @@ button{
 }
 
 .box-product{
-    display: flex;
+    display: block;
     max-width: 100%;
     justify-content: space-between;
     padding-left: 1rem;
     padding-top: 1.5rem;
+    margin-bottom: 5rem;
     gap: 2rem;
 }
 
 .button-yamp{
     margin-left: 1rem;
-    /* border: 0.02rem solid rgb(104, 104, 104); */
-    /* border-radius: 0.3rem;
-    padding: 1rem;
-    background-color: black;
-    color: white; */
+    max-width: 100%;
 }
 
 #title-product{
@@ -99,6 +97,7 @@ button{
 
 h1{
     font-size: 1.3rem;
+    padding-top: 1.3rem;
     padding-bottom: 1rem;
 }
 
@@ -136,18 +135,22 @@ h2{
 }
 
 .config-faleconosco{
-    display: flex;
-    width: 14rem;
+    /* display: flex; */
+    max-width: 10rem;
     cursor: pointer;
-    text-align: center;
-    
+    padding-top: 2rem;
 }
 
 .ultimateDiv{
-    display: flex;
+    display: contents;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 1rem;
+}
+
+.flexFaleConosco{
+    display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -157,8 +160,9 @@ footer{
     font-size: 1.2rem;
     height: 8rem;
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 2rem;
     margin-top: 3rem;
     border: none;
     border-radius: 0.5rem;
 }
+
