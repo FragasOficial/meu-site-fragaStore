@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 body{
     font-family: "Figtree", sans-serif;
@@ -114,10 +114,6 @@ h2{
     text-align: left;
 }
 
-.space-line{
-    line-height: 1.5rem;
-}
-
 .config-faleconosco{
     max-width: 10rem;
     cursor: pointer;
@@ -147,4 +143,153 @@ footer{
     margin-top: 3rem;
     border: none;
     border-radius: 0.5rem;
+} */
+/* catalogo.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.header-config {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+nav button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #555;
+}
+
+.button-yamp{
+    display: flex;
+    font-size: large;
+    text-align: center;
+    justify-content: first baseline;
+    margin-left: 1rem;
+}
+
+#titleDescription{
+    font-size: 1rem;
+    font-weight: 570;
+    margin-bottom: 0.5rem;
+    line-height: normal;
+}
+
+.description-product {
+    max-width: 75rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+#title-product{
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.box-product {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.secondBlockDescription {
+    display: flex;
+    padding-left: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.space-line{
+    margin-bottom: 0.6rem;
+    padding-top: 1rem;
+}
+
+h1{
+    font-size: 1rem;
+}
+
+.ultimateDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.alinhamento-description {
+    list-style-type: none;
+}
+
+.config-faleconosco {
+    width: 100px;
+    height: auto;
+}
+
+/* Botão flutuante de WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+}
+
+.whatsapp-icon {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#compra-efetuada-header {
+    text-decoration: none;
+    color: #333;
+}
+
+@media (min-width: 600px) {
+    nav {
+        justify-content: space-around;
+    }
+
+    .box-product {
+        flex-direction: row;
+    }
+
+    .secondBlockDescription {
+        flex-direction: row;
+    }
 }

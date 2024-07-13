@@ -2,17 +2,17 @@
 
 body{
     font-family: "Figtree", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     margin: auto;
 }
 
-/* .header-config{
-    color: red;
+.header-config{
+    max-width: 100%;
+    align-items: center;
+    margin: 0 auto;
     display: flex;
     text-align: center;
-} */
+}
 
 img{
     max-width: 100%;
@@ -41,47 +41,17 @@ button{
     cursor: pointer;
 }
 
-.box-product{
-    border: 0.02rem solid black;
-    border-radius: 1rem;
-    width: 30%;
-    justify-content: space-between;
-    margin: 1rem;
-    padding-top: 1.5rem;
-}
 
 .title-product{
     font-size: 1.25rem;
 }
 
-.image-product{
-    width: 20rem;
-    height: 20rem;
-}
-
-#image-whey-max{
-    width: 12rem;
-    height: 20rem;
-}
-
-.description-product{
-    /* width: 30%; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: baseline;
+.ilustrativaProbiotica{
     align-items: center;
-    text-align: center;
-}
-
-.price{
-    font-size: 0.9rem;
-    color: red;
-}
-
-.price-discount{
-    font-size: larger;
-    font-weight: bold;
-    color: green;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: black;
 }
 
 .config-faleconosco{
