@@ -32,10 +32,9 @@ header {
 #logoMarca{
     font-size: 4.4rem;
     color: #F53474;
-    font-family: "Archivo Black", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-
+    font-family: "Archivo Black", sans-serif;      
+    font-weight: 400;
+    font-style: normal;
 }
 
 nav {
@@ -167,16 +166,165 @@ footer {
     color: #333;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     nav {
         justify-content: space-around;
     }
 
+    .description-product{
+        flex-direction: row;
+        padding: 0 auto;
+        margin: 0 auto;
+    }
+
     .box-product {
         flex-direction: row;
+        padding: 0 auto;
+        margin: 0 auto;
     }
 
     .secondBlockDescription {
         flex-direction: row;
+        padding: 0 auto;
+        margin: 0 auto;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        /* gap: 5rem; */
+        width: 100%;
+        text-align: left;
+        border-bottom: 0.17rem solid #F53474;
+        padding-bottom: 1rem;
+        padding-top: 0.5rem;
+        margin-bottom: 2rem;
+    
+    }
+    
+    .header-config {
+        max-width: 20%;
+        border-radius: 60rem;
+        justify-content: space-between;
+        height: auto;
+        margin-left: 3rem;
+    }
+    
+    #logoMarca{
+        font-size: 4.4rem;
+        color: #F53474;
+        font-family: "Archivo Black", sans-serif;      
+        font-style: normal;
+    }
+    
+    nav {
+        display: block;
+        /* flex-wrap: wrap;
+        align-items: flex-end; */
+        gap: none;
+        position: absolute;
+        right: 0;
+    }
+    
+    
+    button {
+        background-color: transparent;
+        color: black;
+        border: none;
+        font-size: medium;
+        padding: 1rem;
+        cursor: pointer;
+    
+    }
+    
+    nav button:hover {
+        background-color: white;
+        Color: #F53474;
+        font-weight: bold;
+        border-radius: 6rem;
+        max-width: fit-content;
+        
+    }
+    
+    .button-yamp{
+        display: flex;
+        font-size: large;
+        text-align: center;
+        justify-content: first baseline;
+        margin-left: 1rem;
+    }
+    
+    #titleDescription{
+        font-size: 1rem;
+        font-weight: 570;
+        margin-bottom: 0.5rem;
+        line-height: normal;
+    }
+    
+    .description-product {
+        max-width: 75rem;
+        width: 100%;
+        border-bottom: 0.1rem solid black;
+        padding-bottom: 2rem;
+    }
+    
+    #title-product{
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    
+    .box-product {
+        display: flex;
+        flex-direction: column;
+        gap: none;
+        padding-bottom: 2rem;
+        padding: 1rem;
+    }
+    
+    .secondBlockDescription {
+        display: block;
+        padding-left: none;
+        flex-direction: column;
+        gap: none;
+    }
+    
+    .space-line{
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    
+    h1{
+        font-size: 1rem;
+    }
+    
+    .ultimateDiv {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .alinhamento-description {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    
+    .config-faleconosco {
+        width: 100px;
+        height: auto;
+    }
+    
+    
+    
+    footer {
+        width: 100%;
+        background-color: #f8f8f8;
+        text-align: center;
+        padding: 1em 0;
+    }
+    
+    #compra-efetuada-header {
+        text-decoration: none;
+        color: #333;
     }
 }
