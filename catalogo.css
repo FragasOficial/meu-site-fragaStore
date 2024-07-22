@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,9 +9,16 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
     width: 100%;
-    background-color: #f8f8f8;
-    text-align: center;
+    text-align: left;
+    border-bottom: 0.17rem solid #F53474;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    margin-bottom: 2rem;
+
 }
 
 .header-config {
@@ -17,28 +26,44 @@ header {
     border-radius: 60rem;
     justify-content: space-between;
     height: auto;
+    margin-left: 3rem;
+}
+
+#logoMarca{
+    font-size: 4.4rem;
+    color: #F53474;
+    font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
 }
 
 nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 0.5rem;
-    position: relative;
+    align-items: flex-end;
+    gap: 2rem;
+    position: absolute;
+    right: 0;
 }
 
-nav button {
-    background-color: white;
+
+button {
+    background-color: transparent;
     color: black;
     border: none;
-    padding: 1em;
+    font-size: medium;
+    padding: 1rem;
     cursor: pointer;
+
 }
 
 nav button:hover {
-    background-color: #555;
-    color: white;
-    border-radius: 0.5rem;
+    background-color: white;
+    Color: #F53474;
+    font-weight: bold;
+    border-radius: 6rem;
+    width: 12rem;
     
 }
 
