@@ -67,11 +67,9 @@ nav button:hover {
 }
 
 .button-yamp{
-    display: flex;
-    font-size: large;
     text-align: center;
-    justify-content: first baseline;
-    margin-left: 1rem;
+    justify-content: center;
+    padding-bottom: 1rem;
 }
 
 #titleDescription{
@@ -166,53 +164,42 @@ footer {
     color: #333;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 601px) {
     nav {
         justify-content: space-around;
     }
 
-    .description-product{
-        flex-direction: row;
-        padding: 0 auto;
-        margin: 0 auto;
-    }
-
     .box-product {
         flex-direction: row;
-        padding: 0 auto;
-        margin: 0 auto;
     }
 
     .secondBlockDescription {
         flex-direction: row;
-        padding: 0 auto;
-        margin: 0 auto;
     }
+}
 
+@media (max-width: 600px) {
     header {
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        /* gap: 5rem; */
-        width: 100%;
-        text-align: left;
+        justify-content: space-around;
+        max-width: 100%;
         border-bottom: 0.17rem solid #F53474;
-        padding-bottom: 1rem;
-        padding-top: 0.5rem;
-        margin-bottom: 2rem;
-    
+        margin-bottom: none;
+        padding-bottom: none;
+        align-items: center;
     }
     
     .header-config {
-        max-width: 20%;
+        max-width: 70%;
         border-radius: 60rem;
-        justify-content: space-between;
-        height: auto;
-        margin-left: 3rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        padding-bottom: none;
     }
     
     #logoMarca{
-        font-size: 4.4rem;
+        font-size: 2rem;
         color: #F53474;
         font-family: "Archivo Black", sans-serif;      
         font-style: normal;
@@ -220,23 +207,18 @@ footer {
     
     nav {
         display: block;
-        /* flex-wrap: wrap;
-        align-items: flex-end; */
+        position: relative;
+        top: -2.2rem;
+        left: 0;
+        align-items: center;
+    }
+
+    button{
+        font-size: 0.85rem;
         gap: none;
-        position: absolute;
-        right: 0;
+        margin-top: 0;
     }
     
-    
-    button {
-        background-color: transparent;
-        color: black;
-        border: none;
-        font-size: medium;
-        padding: 1rem;
-        cursor: pointer;
-    
-    }
     
     nav button:hover {
         background-color: white;
@@ -245,14 +227,6 @@ footer {
         border-radius: 6rem;
         max-width: fit-content;
         
-    }
-    
-    .button-yamp{
-        display: flex;
-        font-size: large;
-        text-align: center;
-        justify-content: first baseline;
-        margin-left: 1rem;
     }
     
     #titleDescription{
@@ -264,9 +238,11 @@ footer {
     
     .description-product {
         max-width: 75rem;
+        text-align: left;
         width: 100%;
         border-bottom: 0.1rem solid black;
         padding-bottom: 2rem;
+        padding-left: none;
     }
     
     #title-product{
@@ -279,12 +255,12 @@ footer {
         flex-direction: column;
         gap: none;
         padding-bottom: 2rem;
-        padding: 1rem;
+        padding: none;
     }
     
     .secondBlockDescription {
         display: block;
-        padding-left: none;
+        padding: 0;
         flex-direction: column;
         gap: none;
     }
@@ -294,8 +270,10 @@ footer {
         padding: 0 auto;
     }
     
-    h1{
-        font-size: 1rem;
+    .button-yamp{
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 1rem;
     }
     
     .ultimateDiv {
@@ -308,14 +286,7 @@ footer {
         margin: 0 auto;
         padding: 0 auto;
     }
-    
-    .config-faleconosco {
-        width: 100px;
-        height: auto;
-    }
-    
-    
-    
+
     footer {
         width: 100%;
         background-color: #f8f8f8;
