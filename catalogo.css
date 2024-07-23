@@ -80,8 +80,13 @@ nav button:hover {
 }
 
 .description-product {
-    max-width: 75rem;
-    width: 100%;
+    /* background-color:#fc81aa; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 100%;
+    /* width: 100%; */
     border-bottom: 0.1rem solid black;
     padding-bottom: 2rem;
 }
@@ -92,11 +97,14 @@ nav button:hover {
 }
 
 .box-product {
+    background-color: white;
     display: flex;
-    flex-direction: column;
-    gap: 1.25rem;
+    flex-direction: row;
     padding-bottom: 2rem;
+    text-align: center;
     padding: 1rem;
+    border-radius: 0.3rem;
+    border: 0.05rem transparent grey;
 }
 
 .secondBlockDescription {
