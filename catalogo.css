@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Ops+One&display=swap');
 
 body {
+    font-family: "Figtree", sans-serif;
+    font-style: normal;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +24,7 @@ header {
 }
 
 .header-config {
-    max-width: 20%;
+    max-width: 18%;
     border-radius: 60rem;
     justify-content: space-between;
     height: auto;
@@ -35,6 +37,10 @@ header {
     font-family: "Archivo Black", sans-serif;      
     font-weight: 400;
     font-style: normal;
+}
+
+#descriptionInLogo{
+    font-size: x-large;
 }
 
 nav {
@@ -67,26 +73,52 @@ nav button:hover {
 }
 
 .button-yamp{
+    font-size: larger;
     text-align: center;
     justify-content: center;
     padding-bottom: 1rem;
 }
 
-#titleDescription{
+#under-button{
     font-size: 1rem;
-    font-weight: 570;
+    margin-top: 1rem;
+}
+
+.moreInfo{
+    padding: 0.2rem;
+    height: 2rem;
+    width: 8rem;
+    background-color: transparent;
+    font-size: larger;
+}
+
+
+.moreInfo:hover{
+    font-weight: bold;
+}
+
+#titleDescription{
+    font-size: 1.15rem;
+    text-decoration: underline;
     margin-bottom: 0.5rem;
     line-height: normal;
 }
 
+.topoMarketing{
+    font-weight: bold;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #F53474;
+}
+
 .description-product {
-    /* background-color:#fc81aa; */
+    margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     max-width: 100%;
-    /* width: 100%; */
     border-bottom: 0.1rem solid black;
     padding-bottom: 2rem;
 }
@@ -100,28 +132,72 @@ nav button:hover {
     background-color: white;
     display: flex;
     flex-direction: row;
-    padding-bottom: 2rem;
+    padding: 2rem 1rem;
     text-align: center;
-    padding: 1rem;
-    border-radius: 0.3rem;
-    border: 0.05rem transparent grey;
+    border-radius: 1rem;
+    border: 0.05rem solid #F53474;
 }
 
 .secondBlockDescription {
-    display: flex;
-    padding-left: 2rem;
+    margin: 0 3rem;
+    display: block;
+    padding: 1rem;
     flex-direction: column;
+    line-height: 1.5rem;
+}
+
+.displayDescription{
+    margin-bottom: 1.5rem;
+    display: flex;
     gap: 2rem;
 }
 
+#doisPontos{
+    font-weight: 400;
+}
+
 .space-line{
+    max-width: 100%;
     margin-bottom: 0.6rem;
-    padding-top: 0.5rem;
+}
+
+#topoSuply{
+    font-size: x-large;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
 }
 
 h1{
-    font-size: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -1rem;
+    padding-bottom: 3rem;
+    font-weight: bold;
+    
 }
+
+h2{
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+}
+
+#buttonReturn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 2rem;
+}
+
+.returnImg{
+    height: 3rem;
+    
+}
+
+
 
 .ultimateDiv {
     display: flex;
@@ -130,6 +206,8 @@ h1{
 }
 
 .alinhamento-description {
+    width: 50%;
+    max-width: 100%;
     list-style-type: none;
 }
 

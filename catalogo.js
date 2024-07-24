@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (infoButton) {
         infoButton.addEventListener('click', function(event) {
             event.preventDefault();
-            window.location.href = './index.html#creatina';
+            window.location.href = './bulaCatalogo#creatina';
         });
     }
 });
